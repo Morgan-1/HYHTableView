@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961AC8051C16F3E5003A6C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 961AC8041C16F3E5003A6C7C /* main.m */; };
+		961AC8081C16F3E5003A6C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 961AC8071C16F3E5003A6C7C /* AppDelegate.m */; };
+		961AC80E1C16F3E5003A6C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961AC80C1C16F3E5003A6C7C /* Main.storyboard */; };
+		961AC8101C16F3E5003A6C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961AC80F1C16F3E5003A6C7C /* Assets.xcassets */; };
+		961AC8131C16F3E5003A6C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961AC8111C16F3E5003A6C7C /* LaunchScreen.storyboard */; };
+		961AC81E1C16F3E5003A6C7C /* HYHTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961AC81D1C16F3E5003A6C7C /* HYHTableViewTests.m */; };
+		961AC8291C16F3E5003A6C7C /* HYHTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961AC8281C16F3E5003A6C7C /* HYHTableViewUITests.m */; };
+		961AC8381C16F40C003A6C7C /* HYHVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 961AC8371C16F40C003A6C7C /* HYHVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		961AC81A1C16F3E5003A6C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961AC7F81C16F3E5003A6C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961AC7FF1C16F3E5003A6C7C;
+			remoteInfo = HYHTableView;
+		};
+		961AC8251C16F3E5003A6C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961AC7F81C16F3E5003A6C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961AC7FF1C16F3E5003A6C7C;
+			remoteInfo = HYHTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		961AC8001C16F3E5003A6C7C /* HYHTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYHTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961AC8041C16F3E5003A6C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		961AC8061C16F3E5003A6C7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		961AC8071C16F3E5003A6C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		961AC80D1C16F3E5003A6C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		961AC80F1C16F3E5003A6C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		961AC8121C16F3E5003A6C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961AC8141C16F3E5003A6C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961AC8191C16F3E5003A6C7C /* HYHTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYHTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961AC81D1C16F3E5003A6C7C /* HYHTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHTableViewTests.m; sourceTree = "<group>"; };
+		961AC81F1C16F3E5003A6C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961AC8241C16F3E5003A6C7C /* HYHTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYHTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961AC8281C16F3E5003A6C7C /* HYHTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHTableViewUITests.m; sourceTree = "<group>"; };
+		961AC82A1C16F3E5003A6C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961AC8361C16F40C003A6C7C /* HYHVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHVC.h; sourceTree = "<group>"; };
+		961AC8371C16F40C003A6C7C /* HYHVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961AC7FD1C16F3E5003A6C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961AC8161C16F3E5003A6C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961AC8211C16F3E5003A6C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961AC7F71C16F3E5003A6C7C = {
+			isa = PBXGroup;
+			children = (
+				961AC8021C16F3E5003A6C7C /* HYHTableView */,
+				961AC81C1C16F3E5003A6C7C /* HYHTableViewTests */,
+				961AC8271C16F3E5003A6C7C /* HYHTableViewUITests */,
+				961AC8011C16F3E5003A6C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		961AC8011C16F3E5003A6C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961AC8001C16F3E5003A6C7C /* HYHTableView.app */,
+				961AC8191C16F3E5003A6C7C /* HYHTableViewTests.xctest */,
+				961AC8241C16F3E5003A6C7C /* HYHTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961AC8021C16F3E5003A6C7C /* HYHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				961AC8061C16F3E5003A6C7C /* AppDelegate.h */,
+				961AC8071C16F3E5003A6C7C /* AppDelegate.m */,
+				961AC80C1C16F3E5003A6C7C /* Main.storyboard */,
+				961AC80F1C16F3E5003A6C7C /* Assets.xcassets */,
+				961AC8111C16F3E5003A6C7C /* LaunchScreen.storyboard */,
+				961AC8141C16F3E5003A6C7C /* Info.plist */,
+				961AC8031C16F3E5003A6C7C /* Supporting Files */,
+				961AC8361C16F40C003A6C7C /* HYHVC.h */,
+				961AC8371C16F40C003A6C7C /* HYHVC.m */,
+			);
+			path = HYHTableView;
+			sourceTree = "<group>";
+		};
+		961AC8031C16F3E5003A6C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				961AC8041C16F3E5003A6C7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		961AC81C1C16F3E5003A6C7C /* HYHTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				961AC81D1C16F3E5003A6C7C /* HYHTableViewTests.m */,
+				961AC81F1C16F3E5003A6C7C /* Info.plist */,
+			);
+			path = HYHTableViewTests;
+			sourceTree = "<group>";
+		};
+		961AC8271C16F3E5003A6C7C /* HYHTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				961AC8281C16F3E5003A6C7C /* HYHTableViewUITests.m */,
+				961AC82A1C16F3E5003A6C7C /* Info.plist */,
+			);
+			path = HYHTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961AC7FF1C16F3E5003A6C7C /* HYHTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961AC82D1C16F3E5003A6C7C /* Build configuration list for PBXNativeTarget "HYHTableView" */;
+			buildPhases = (
+				961AC7FC1C16F3E5003A6C7C /* Sources */,
+				961AC7FD1C16F3E5003A6C7C /* Frameworks */,
+				961AC7FE1C16F3E5003A6C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYHTableView;
+			productName = HYHTableView;
+			productReference = 961AC8001C16F3E5003A6C7C /* HYHTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		961AC8181C16F3E5003A6C7C /* HYHTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961AC8301C16F3E5003A6C7C /* Build configuration list for PBXNativeTarget "HYHTableViewTests" */;
+			buildPhases = (
+				961AC8151C16F3E5003A6C7C /* Sources */,
+				961AC8161C16F3E5003A6C7C /* Frameworks */,
+				961AC8171C16F3E5003A6C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961AC81B1C16F3E5003A6C7C /* PBXTargetDependency */,
+			);
+			name = HYHTableViewTests;
+			productName = HYHTableViewTests;
+			productReference = 961AC8191C16F3E5003A6C7C /* HYHTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		961AC8231C16F3E5003A6C7C /* HYHTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961AC8331C16F3E5003A6C7C /* Build configuration list for PBXNativeTarget "HYHTableViewUITests" */;
+			buildPhases = (
+				961AC8201C16F3E5003A6C7C /* Sources */,
+				961AC8211C16F3E5003A6C7C /* Frameworks */,
+				961AC8221C16F3E5003A6C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961AC8261C16F3E5003A6C7C /* PBXTargetDependency */,
+			);
+			name = HYHTableViewUITests;
+			productName = HYHTableViewUITests;
+			productReference = 961AC8241C16F3E5003A6C7C /* HYHTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961AC7F81C16F3E5003A6C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYH;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = skyclass;
+				TargetAttributes = {
+					961AC7FF1C16F3E5003A6C7C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					961AC8181C16F3E5003A6C7C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 961AC7FF1C16F3E5003A6C7C;
+					};
+					961AC8231C16F3E5003A6C7C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 961AC7FF1C16F3E5003A6C7C;
+					};
+				};
+			};
+			buildConfigurationList = 961AC7FB1C16F3E5003A6C7C /* Build configuration list for PBXProject "HYHTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 961AC7F71C16F3E5003A6C7C;
+			productRefGroup = 961AC8011C16F3E5003A6C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961AC7FF1C16F3E5003A6C7C /* HYHTableView */,
+				961AC8181C16F3E5003A6C7C /* HYHTableViewTests */,
+				961AC8231C16F3E5003A6C7C /* HYHTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		961AC7FE1C16F3E5003A6C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961AC8131C16F3E5003A6C7C /* LaunchScreen.storyboard in Resources */,
+				961AC8101C16F3E5003A6C7C /* Assets.xcassets in Resources */,
+				961AC80E1C16F3E5003A6C7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961AC8171C16F3E5003A6C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961AC8221C16F3E5003A6C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961AC7FC1C16F3E5003A6C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961AC8381C16F40C003A6C7C /* HYHVC.m in Sources */,
+				961AC8081C16F3E5003A6C7C /* AppDelegate.m in Sources */,
+				961AC8051C16F3E5003A6C7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961AC8151C16F3E5003A6C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961AC81E1C16F3E5003A6C7C /* HYHTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961AC8201C16F3E5003A6C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961AC8291C16F3E5003A6C7C /* HYHTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		961AC81B1C16F3E5003A6C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961AC7FF1C16F3E5003A6C7C /* HYHTableView */;
+			targetProxy = 961AC81A1C16F3E5003A6C7C /* PBXContainerItemProxy */;
+		};
+		961AC8261C16F3E5003A6C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961AC7FF1C16F3E5003A6C7C /* HYHTableView */;
+			targetProxy = 961AC8251C16F3E5003A6C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		961AC80C1C16F3E5003A6C7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961AC80D1C16F3E5003A6C7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		961AC8111C16F3E5003A6C7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961AC8121C16F3E5003A6C7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		961AC82B1C16F3E5003A6C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		961AC82C1C16F3E5003A6C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		961AC82E1C16F3E5003A6C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYHTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HYHTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		961AC82F1C16F3E5003A6C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYHTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HYHTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		961AC8311C16F3E5003A6C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYHTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HYHTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYHTableView.app/HYHTableView";
+			};
+			name = Debug;
+		};
+		961AC8321C16F3E5003A6C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYHTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HYHTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYHTableView.app/HYHTableView";
+			};
+			name = Release;
+		};
+		961AC8341C16F3E5003A6C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYHTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HYHTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYHTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		961AC8351C16F3E5003A6C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYHTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.HYHTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYHTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961AC7FB1C16F3E5003A6C7C /* Build configuration list for PBXProject "HYHTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961AC82B1C16F3E5003A6C7C /* Debug */,
+				961AC82C1C16F3E5003A6C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961AC82D1C16F3E5003A6C7C /* Build configuration list for PBXNativeTarget "HYHTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961AC82E1C16F3E5003A6C7C /* Debug */,
+				961AC82F1C16F3E5003A6C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		961AC8301C16F3E5003A6C7C /* Build configuration list for PBXNativeTarget "HYHTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961AC8311C16F3E5003A6C7C /* Debug */,
+				961AC8321C16F3E5003A6C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		961AC8331C16F3E5003A6C7C /* Build configuration list for PBXNativeTarget "HYHTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961AC8341C16F3E5003A6C7C /* Debug */,
+				961AC8351C16F3E5003A6C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961AC7F81C16F3E5003A6C7C /* Project object */;
+}
