@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HYHContactTableVC : UITableViewController
+@interface HYHContactTableVC : UITableViewController<UIAlertViewDelegate>
 
 @end
