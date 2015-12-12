@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "85222420EEC1A849E8E9489CE70E99E17E76495B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "85222420EEC1A849E8E9489CE70E99E17E76495B" : 0,
+    "647F286BE39706B3E3A431F3074B0F5FAF32761A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31ED1850-98A9-4743-AE5E-01787A5760E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "85222420EEC1A849E8E9489CE70E99E17E76495B" : "TableView\/",
+    "647F286BE39706B3E3A431F3074B0F5FAF32761A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HYHTableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HYHTableView\/HYHTableView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Morgan-1\/helloword.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "647F286BE39706B3E3A431F3074B0F5FAF32761A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Morgan-1\/HYHTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85222420EEC1A849E8E9489CE70E99E17E76495B"
+    }
+  ]
+}
