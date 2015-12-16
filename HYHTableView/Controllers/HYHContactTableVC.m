@@ -5,7 +5,14 @@
 //  Created by skyclass on 15/12/8.
 //  Copyright © 2015年 skyclass. All rights reserved.
 //
-
+/**
+ *  目的主要是优化tableview的性能
+ *
+ *  @param nonatomic <#nonatomic description#>
+ *  @param strong    <#strong description#>
+ *
+ *  @return <#return value description#>
+ */
 #import "HYHContactTableVC.h"
 #import "HYHContact.h"
 #import "HYHContactGroup.h"
